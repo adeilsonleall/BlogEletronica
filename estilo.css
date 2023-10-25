@@ -1,18 +1,15 @@
-*{font-family: sans-serif; margin: 0px; padding: 0px;}
+*{font-family: sans-serif; margin: 0; padding: 0;}
 
 body{background-color: #ddd;}
 
-@media(min-width : 500px){
-    header nav{background-color: #fff; display: flex; align-items: center; margin-bottom: 10px; flex-wrap: wrap;}
-    header nav img{width: 200px; margin: 20px 20px;}
-    header nav div{display: flex; justify-content: right; width: 70%; }
-    header nav div div{width: 50%; display: flex; justify-content: space-around; text-align: right; flex-wrap: wrap;}    
-    header nav div div h4{display: inline-block; font-size: 12pt;}    
-    header nav div div h4 a{text-decoration: none; color: #000;}    
-    header nav div div h4 a:hover{color: #18b3f0;}
-    .sections{display: flex; flex-direction: column; justify-content:center; background-color: #fff; margin: 40px 5% 5px 5%;}
+@media(min-width : 500px){ /* Para computdores*/
+
 }
 
-@media(max-width : 500px){
-    header nav{background-color: #fff; display: flex; align-items: center; margin-bottom: 10px; flex-wrap: wrap;}
+@media(max-width : 500px){ /* Para dispositivos móveis*/
+    #nav-bar{width: 70%; background-color: #fff;}
+    #img-logo{width: 200px; visibility: hidden;}
+    #img-menu{width: 24px; visibility: hidden;}
+    #img-fechar{width: 24px; visibility: hidden;}
+    #main-menu{visibility: hidden;}
 }

@@ -2,19 +2,19 @@
 
 body{background-color: #ddd;}
 
-@media(min-width : 500px){ /* Para computdores*/
+@media(min-width : 800px){ /* Para computdores*/
 
 }
 
-@media(max-width : 500px){ /* Para dispositivos móveis*/
-    #nav-bar{width: 100%; height: 80px; background-color: #fff; z-index: 10;}
-    #img-logo{width: 200px; margin-top: 10px;}
-    #img-menu{width: 35px; position: absolute; right: 10px; top: 40px;}
+@media(max-width : 800px){ /* Para dispositivos móveis*/
+    #nav-bar{width: 100%; height: fit-content; background-color: #fff; position: relative;}
+    #img-logo{width: 200px; margin: 20px;}
+    #img-menu{width: 35px; position: absolute; right: 10px; top: 70px;}
 
-    #main-menu{width: auto; position: absolute; right: 45px; top: 90px;
-    background-color: rgba(0, 0, 0, 0.8); text-align: center; border-radius: 10px 0px 10px 10px;}
-    header nav div h3 a{text-decoration: none; color: #ccc; }
-    header nav div h3{padding: 10px; margin: 10px; border-bottom: 1px solid #999;}
-
-    .hidden{visibility: hidden;}
+    .main-menu-open{z-index: -1; width: auto; height: fit-content; overflow: hidden; position: absolute; right: 15px; top: 115px;
+    background-color: rgba(0, 0, 0, 0.8); text-align: center; border-radius: 0px 0px 0px 0px;
+    border-top: 0; transition: top 0.2s;}  
+    .main-menu-close{top: -120px;}  
+    header nav div p a{text-decoration: none; color: #fff;}
+    header nav div p{padding: 10px; margin: 10px;}
 }

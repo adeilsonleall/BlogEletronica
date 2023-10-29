@@ -4,6 +4,7 @@ const pathImgClose = 'img/fechar.png';
 const pathImgMenu = 'img/menu.png';
 let menuOpen = false;
 
+/* Codificação do Botão de exibição Menu */
 imgMenu.addEventListener('click', function(){ 
     mainMenu.classList.toggle('main-menu-close');
     if(mainMenu.classList.value==='main-menu-open main-menu-close'){

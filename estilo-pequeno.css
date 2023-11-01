@@ -30,7 +30,7 @@ body{
     border: 1px solid;
     width: 100%;
     overflow: hidden;
-    background: -webkit-linear-gradient(#0060c075, #021b79);
+    background: -webkit-linear-gradient(#0a93e2, #004d80);
     transition: top 0.5s ease;
 }
 
@@ -72,4 +72,12 @@ header div p a:hover{
 .img-menu:hover{
     width: 35px;
     height: 35px;
+}
+
+#conteudo{
+    display: flex;
+    margin: 20px 10%;
+    border: 1px solid;
+    z-index: -3;
+    position: absolute;
 }

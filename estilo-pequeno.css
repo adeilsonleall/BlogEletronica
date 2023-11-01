@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,7 +30,7 @@ body{
     border: 1px solid;
     width: 100%;
     overflow: hidden;
-    background: -webkit-linear-gradient(#014e9b, #021b79);
+    background: -webkit-linear-gradient(#0060c075, #021b79);
     transition: top 0.5s ease;
 }
 

@@ -6,13 +6,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: #eee;
+}
+
 .bar-navigation{ /* BARRA DE NAVEGAÇÃO */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background-color: #03007a;
+    background-color: #ffffff;
 }
 
 .bar-menu{
@@ -26,8 +30,7 @@ header div p{
     margin: 5px;
 }
 
-header div p a{ /* TEXTOS DO MENU*/
-    color: #FFFFFF;
+header div p a{ /* TEXTOS DO MENU */
     text-decoration: none;
     font-weight: bolder;
     transition: font-size 0.1s ease-out;
@@ -38,12 +41,12 @@ header div p a:hover{
 }
 
 .img-logo{ /* LOGO / MARCA */
-    height: 65px;
+    height: 80px;
     border-radius: 5px;
     transition: height .1s ease-out;
 }
 .img-logo:hover{
-    height: 68px;
+    height: 85px;
 }
 
 .img-menu{ /* BOTÃO PARA ACESSO AO MENU (TELAS MENORES)*/

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #FFFFFF; */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bar-navigation{ /* BARRA DE NAVEGAÇÃO */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #03007a;
+}
+
+.bar-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div p{
+    padding: 10px;
+    margin: 5px;
+}
+
+header div p a{ /* TEXTOS DO MENU*/
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 0.1s ease-out;
+}
+header div p a:hover{
+    color: #00B0F0;;
+    font-size: larger;
+}
+
+.img-logo{ /* LOGO / MARCA */
+    height: 65px;
+    border-radius: 5px;
+    transition: height .1s ease-out;
+}
+.img-logo:hover{
+    height: 68px;
+}
+
+.img-menu{ /* BOTÃO PARA ACESSO AO MENU (TELAS MENORES)*/
+    position: absolute;
+    visibility: hidden; 
+    width: 35px;
+    height: 35px;
+}

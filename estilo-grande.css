@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid #FFFFFF; */
     font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --black-color-default:  #404040;
 }
 
 body{
@@ -15,7 +18,8 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background-color: #ffffff;
+    background-color: var(--black-color-default);
+    border-top: solid 6px #00B0F0;
 }
 
 .bar-menu{
@@ -32,11 +36,12 @@ header div p{
 header div p a{ /* TEXTOS DO MENU */
     text-decoration: none;
     font-weight: bolder;
+    color: #ffffff;
     transition: font-size 0.1s ease-out;
 }
 header div p a:hover{
-    color: #00B0F0;;
-    font-size: larger;
+    color: #00B0F0;
+    /* font-size: larger; */
 }
 
 .img-logo{ /* LOGO / MARCA */
@@ -45,7 +50,7 @@ header div p a:hover{
     transition: height .1s ease-out;
 }
 .img-logo:hover{
-    height: 85px;
+    /* height: 85px; */
 }
 
 .img-menu{ /* BOTÃO PARA ACESSO AO MENU (TELAS MENORES)*/

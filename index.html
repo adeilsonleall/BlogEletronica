@@ -7,30 +7,29 @@
 
     <link rel="stylesheet" href="estilo-grande.css" media="(min-width: 700px)">
     <link rel="stylesheet" href="estilo-pequeno.css" media="(max-width: 699px)">
+    <link rel="stylesheet" href="animations.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel='stylesheet' type='text/css'>
-
+    
 </head>
 <body>
     <header>
         <div role="banner" class="bar-navigation">
-            <img src="img/logoWhite.png" alt="logo" class="img-logo"> <!--Minha Marca-->
-            <div class="bar-menu toggle-menu">
+            <img id="img-logo" src="img/logo3.png" alt="logo" class="img-logo pulse"> <!--Minha Marca-->
+            <div class="bar-menu hide-menu">
                 <p><a href="#inicio">INICIO</a></p>
                 <p><a href="#eletronica">ELETRÔNICA</a></p>
                 <p><a href="#arduino">ARDUINO</a></p>
                 <p><a href="#sobre">SOBRE</a></p>
             </div>
-            <img id="imgMenu" src="img/menu.png" alt="menu" class="img-menu" onclick="togglekMenu()">
+            <img id="imgMenu" src="img/menu.png" alt="menu" class="img-menu">
         </div>
     </header>
 
     <section id="conteudo">
         <div id="eletronica">
-            <h3>O que é Eletrônica?</h3>
-            <p>Data: dia mês ano</p>
         </div>
     </section>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
